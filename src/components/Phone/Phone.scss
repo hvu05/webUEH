@@ -1,0 +1,19 @@
+.phone{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    height: 60px;
+    background-color: #007bff; /* Màu nền xanh */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // border-radius: 50%;  /* Làm icon tròn */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Đổ bóng nhẹ */
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.1); /* Khi hover, icon phóng to nhẹ */
+    }
+}

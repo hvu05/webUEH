@@ -1,14 +1,14 @@
 import './Queo.scss';
-
+import img from '../../assets/image/phat.png';
 function Queo() {
     return (
         <>
             <div className="vanban">
-                "Tôi khâm phục ý chí vươn lên và sự bền bỉ khi đối diện với vô số khó khăn trong hành trình đồng hành cùng Khương suốt 15 năm qua."
+                "Không có ước mơ nào là không thực hiện được, chỉ là bạn chưa làm đúng cách."
             </div>
 
             <div className="anhQueo">
-                <img src="https://ayp.vn/wp-content/uploads/2024/06/nguyen-huu-tri.webp" alt="Nguyễn Hữu Trí"/>
+                <img src={img} alt="Nguyễn Hữu Trí"/>
             </div>
 
             <div className="ten">

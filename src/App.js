@@ -4,6 +4,7 @@ import Dashboard from './components/Dashborad';
 import Footer from './components/Footer';
 import Lotrinh from './components/Lotrinh';
 import Menu from './components/Menu';
+// import Phone from './components/Phone';
 import Phuhop from './components/Phuhop';
 import Queo from './components/Queo';
 
@@ -17,7 +18,7 @@ function App() {
 
     <Lotrinh />
     <Dangki />
-
+    {/* <Phone /> */}
     <Footer />
    </>
   );

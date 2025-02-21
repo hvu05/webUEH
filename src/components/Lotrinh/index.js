@@ -7,8 +7,8 @@ const item1 = [
     'Form đăng ký chi tiết để mentee chia sẻ về sở thích, ngành học, mục tiêu (dù còn mơ hồ).',
     'Ghép cặp mentor - mentee dựa trên lĩnh vực mentee quan tâm (kinh doanh, marketing, công nghệ, tài chính…).',
     'Buổi gặp đầu tiên:',
-    'Mentor giúp mentee tự đánh giá về bản thân mình (sở trường, sở đoản).',
-    'Đặt mục tiêu cho hành trình như tìm hiểu ngành nghề bản thân muốn hướng tới, cải thiện soft skills, quản lý thời gian.'
+    '- Mentor giúp mentee tự đánh giá về bản thân mình (sở trường, sở đoản).',
+    '- Đặt mục tiêu cho hành trình như tìm hiểu ngành nghề bản thân muốn hướng tới, cải thiện soft skills, quản lý thời gian.'
 ];
 const item1_1 = [
     'Mentor giúp mentee tự đánh giá về bản thân mình (sở trường, sở đoản).',
@@ -32,14 +32,14 @@ const item3 = [
 const item3_1 = [
     'Sự kiện tổng kết: ',
     '- Trải nghiệm ước mơ (những mentee tiềm năng được các mentor đánh giá phù hợp)',
-    '- Mentee chia sẽ hành trình, những kiến thức và nhận chứng chỉ tham gia',
+    '- Mentee chia sẻ hành trình, những kiến thức và nhận chứng chỉ tham gia',
     '- Xây dựng cộng đồng mentee sau chương trình để tiếp tục hỗ trợ lẫn nhau'   
 ];
 const data = [
     {
         id: 1,
         time: "Tháng 1",
-        image: 'https://inkythuatso.com/uploads/thumbnails/800/2023/03/1-hinh-anh-nhom-hoc-tap-inkythuatso-14-09-24-16.jpg',
+        image: 'https://blog.goalf.vn/wp-content/uploads/2021/10/loi-ich-cua-viec-thiet-lap-muc-tieu-nhom.jpg',
         list: (
             <>
                 <Divider orientation="left">Buổi kick-off</Divider>
@@ -64,7 +64,7 @@ const data = [
     {
         id: 2,
         time: "Tuần 1",
-        image: 'https://blog.goalf.vn/wp-content/uploads/2021/10/loi-ich-cua-viec-thiet-lap-muc-tieu-nhom.jpg',
+        image: 'https://inkythuatso.com/uploads/thumbnails/800/2023/03/1-hinh-anh-nhom-hoc-tap-inkythuatso-14-09-24-16.jpg',
         list: (
             <>
                 <Divider orientation="left">Workshop kỹ năng thiết yếu</Divider>

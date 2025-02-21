@@ -19,7 +19,7 @@ const GT_LD = [
     },
     {
         key: '2',
-        label: 'Kỹ nắng thể hiện, tự tin chia sẻ',
+        label: 'Kỹ năng thể hiện, tự tin chia sẻ',
     },
     {
         key: '3',
@@ -27,7 +27,7 @@ const GT_LD = [
     },
     {
         key: '4',
-        label: '5 Bí mặt tự tin giao tiếp',
+        label: '5 Bí mật tự tin giao tiếp',
     }
 ];
 const dinhhuongsunghiep = [
