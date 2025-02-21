@@ -1,0 +1,34 @@
+.menu {
+    &--above {
+        display: flex;
+        padding: 10px;
+        margin-left: 100px;
+        &__logo {
+            img {
+                width: 80px;  // Điều chỉnh kích thước ảnh nhỏ lại
+                height: auto;   // Giữ tỉ lệ ảnh
+                max-width: 100%; 
+                padding-right: 15px;
+            }
+        }
+    }
+    position: relative;
+}
+.dropdown-btn{
+    background-color: white;
+    border: none;
+    padding: 10px 10px;
+    font-size:15px;
+    margin-top: 10px;
+}
+.line {
+    width: 1200px; /* Chiều dài ngắn */
+    height: 1.5px; /* Độ dày */
+    background-color: #CDCDCD; /* Màu xám */
+    margin: 10px auto; /* Căn giữa */
+}
+.buttonAfter{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
