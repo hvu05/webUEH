@@ -1,6 +1,9 @@
 import './Dashboard.scss'
 import './ButtonDK.scss'
 import { Col, Row, Button } from 'antd';
+const scrollToForm = () => {
+    window.scrollBy({ top: 2500, behavior: 'smooth' }); 
+};
 
 function Dashboard() {
     return (
@@ -28,12 +31,12 @@ function Dashboard() {
                         </span>
                     </div>
 
-                    <Button className='signin' variant="solid">
-                        LIÊN HỆ TƯ VẤN
+                    <Button className='signin' variant="solid" onClick={scrollToForm} >
+                        ĐĂNG KÍ NGAY
                     </Button>
                 </Col>
                 <Col span={12} className='dashRight'>
-                    <img src='https://images2.thanhnien.vn/528068263637045248/2023/10/29/khuong-ngoc-7-1698603790000615002651.jpeg' alt='anh' />
+                    <img src='https://www.ueh.edu.vn/images/upload/editer/dien%20mao%20UEH%20don%20xuan%202022_1_N.jpg' alt='anh' />
                 </Col>
             </Row>
             </div>

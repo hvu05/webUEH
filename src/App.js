@@ -1,4 +1,5 @@
 import './App.css';
+import Dangki from './components/Dangki';
 import Dashboard from './components/Dashborad';
 import Footer from './components/Footer';
 import Lotrinh from './components/Lotrinh';
@@ -15,6 +16,8 @@ function App() {
     <Phuhop />
 
     <Lotrinh />
+    <Dangki />
+
     <Footer />
    </>
   );

@@ -1,6 +1,8 @@
 .bodyDashboard{
-    background-image: url('https://cdn.tgdd.vn/Files/2016/02/25/792452/chup-anh-hoang-hon-bang-smartphone_800x450.jpg');
+    background-image: url('https://cdn.mobilecity.vn/mobilecity-vn/images/2024/05/hinh-nen-hoang-hon-la-gi-1.jpg.webp');
     padding-top: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
 .text-container {
     text-align: left;
@@ -17,7 +19,7 @@
     padding-right: 150px;
     &--tongquan{
         font-weight: bold;
-        font-size: 35px;
+        font-size: 40px;
         margin-bottom: 20px;
     }
     &--chitiet{
@@ -41,7 +43,9 @@
         width: 500px;
         height: auto;
         padding: 30px 70px;
+        border-radius: 100px;
     }
+    // border-radius: 100px;
 }
 .divider {
     width: 1px;
@@ -51,4 +55,5 @@
 }
 .signin{
     background-color: #FECA00;
+    margin-bottom: 50px;
 }
