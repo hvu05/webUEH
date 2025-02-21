@@ -4,3 +4,50 @@
 .text-container {
     text-align: left;
 }
+.dashLeft{
+    color: white;
+    display: flex;
+    flex-direction: column;  /* Căn dọc */
+    align-items: flex-start; /* Căn trái */
+    max-width: 80%;         /* Đảm bảo không vượt quá phần cột */
+    word-wrap: break-word;   /* Đảm bảo từ dài tự động xuống dòng */
+    overflow-wrap: break-word;
+    padding: 30px 70px;
+    padding-right: 150px;
+    &--tongquan{
+        font-weight: bold;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    &--chitiet{
+        font-size: 23px;
+    }   
+}
+.infoContainer{
+    padding: 10px 10px;
+}
+.inner{
+    display: flex;
+    &--block{
+        padding: 20px 20px;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+.dashRight{
+    img{
+        width: 500px;
+        height: auto;
+        padding: 30px 70px;
+    }
+}
+.divider {
+    width: 1px;
+    height: 30px;
+    background-color: white;
+    opacity: 0.6;
+}
+.signin{
+    background-color: #FECA00;
+}
