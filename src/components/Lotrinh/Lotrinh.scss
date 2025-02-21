@@ -1,0 +1,14 @@
+.textLotrinh {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.lo_trinh_container {
+    display: flex;
+    gap: 20px; /* Khoảng cách giữa các card */
+    overflow-x: auto; /* Cho phép cuộn ngang nếu số lượng card nhiều */
+    padding: 10px;
+    justify-content: center; /* Căn giữa nếu số lượng ít */
+}

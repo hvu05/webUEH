@@ -25,12 +25,9 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="footer__column">
-                    <h3>Công ty CP Năng lực bứt phá</h3>
-                    <p><strong>Mã số thuế:</strong> 0308035936</p>
-                    <p><strong>Trụ sở chính:</strong> 82/18 Lê Văn Duyệt, Phường 1, Quận Bình Thạnh, TP.HCM, Việt Nam</p>
-                    <p><strong>Đại diện pháp luật:</strong> Nguyễn Hữu Trí</p>
-                    <p><strong>Ngày cấp giấy phép:</strong> 08/04/2009</p>
-                    <p><strong>Số điện thoại:</strong> 0388528218</p>
+                    <h3>Đại học Kinh tế Thành phố Hồ Chí Minh</h3>
+                    <p><strong>Trụ sở chính:</strong> 279 Đ. Nguyễn Tri Phương, Phường 8, Quận 10, Hồ Chí Minh</p>
+                    <p><strong>Số điện thoại:</strong>  028 7306 1976</p>
                 </div>
             </div>
         </footer>
